@@ -2,6 +2,12 @@
 
 ## Overview
 This project implements a hybrid approach to video summarization by combining object-based summarization with keyframe extraction techniques. It aims to enhance the quality and efficiency of video summaries by focusing on semantic relevance and visual significance.
+Description:
+This project introduces an innovative approach to video summarization by combining object-based summarization with keyframe extraction. The method utilizes object verification models to identify important elements within a video and integrates these insights with neural network-driven keyframe extraction techniques. This hybrid approach ensures that the selected frames are both visually significant and semantically meaningful, providing a more accurate representation of the video content.
+
+To enhance the summarization process, a reward function is implemented to prioritize diverse and representative frames while minimizing redundancy. By leveraging the strengths of object verification and neural networks, the project improves the overall efficiency and quality of video summarization. This approach is designed to focus on capturing essential content while reducing unnecessary data, making it highly suitable for applications requiring efficient video analysis.
+
+The project demonstrates a novel framework for video summarization that balances semantic relevance with computational efficiency, laying the groundwork for advancements in video processing and content representation.
 
 ## Key Features
 - **Object-Based Summarization**: Identifies key objects in videos to prioritize significant content.
