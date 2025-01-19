@@ -6,20 +6,17 @@ This project implements a hybrid approach to video summarization by combining ob
 ## Key Features
 - **Object-Based Summarization**: Identifies key objects in videos to prioritize significant content.
 - **Keyframe Extraction**: Extracts representative frames using neural networks for an efficient summary.
-- **Reward Function**: Optimizes frame selection by emphasizing diversity and minimizing redundancy.
 
 ## Objective
 To develop an advanced video summarization framework that balances computational efficiency with meaningful content representation. The goal is to provide concise, informative, and visually rich video summaries suitable for various applications, including media analysis and content indexing.
 
 ## Technologies Used
-- Object Verification Models
-- Neural Networks for Keyframe Extraction
-- Reward Function Optimization
+- Object Verification Models(yolo v8)
+- Neural Networks for Keyframe Extraction(transnet V2 ,CIPI , neural network)
 
 ## How It Works
-1. **Object Detection**: Analyze video frames to identify significant objects.
-2. **Keyframe Selection**: Extract frames that best represent the video content.
-3. **Optimization**: Use a reward function to ensure diverse and concise summaries.
+1. **Object Detection**: Analyze video frames to identify significant objects able to idetify 80 object.
+2. **Keyframe Selection**: Extract frames that best represent the video content. 
 
 ## Applications
 - Video indexing and search
